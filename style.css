@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Hahmlet&display=swap');
+body,html {
+    margin: 0; 
+    padding: 0;
+    }
+* {
+    font-family: 'Hahmlet', serif;
+}
+
+.mytitle {
+    height: 250px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1701/Sky_space_galaxy_universe-Space_High_Quality_Wallpaper_1366x768.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.mytitle>button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    margin-top: 10px;
+}
+
+#movies-container {
+/* # 뒤엔 class */
+
+display: flex;
+flex-direction: row;
+gap: 20px;
+flex-wrap: wrap;
+
+}
+
+.cardbox {
+/* . 뒤엔 class */
+    width: 350px;
+    border: 1px solid;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    
+
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+}
+
